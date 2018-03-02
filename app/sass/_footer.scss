@@ -1,0 +1,75 @@
+.footer {
+	padding: 50px 0 75px;
+	background-color: #38393a;
+	.top-line {
+		align-items: stretch;
+	}
+}
+
+.main-contacts {
+
+	&__txt {
+
+	}
+
+	&__top {
+		padding-left: 32px;
+color: #ffffff;
+font-family: $font; font-weight: 700;
+font-size: 18px;
+	}
+
+	&__btm {
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 10px;
+		padding-left: 32px;
+		position: relative;
+color: #ffffff;
+font-family: $font; font-weight: 300;
+font-size: 18px;
+		.icon-email {
+			position: absolute;
+			left: 0;
+			top: 50%;
+					transform: translate(0, -50%);
+		}
+		.icon-mobile {
+			position: absolute;
+			left: 5px;
+			top: 50%;
+					transform: translate(0, -50%);
+		}
+	}
+}
+
+
+
+.social {
+	padding-left: 32px;
+	padding-top: 10px;
+	li {
+		display: inline-block;
+		&:not(:last-child) {
+			margin-right: 5px;
+		}
+	} 
+	a {
+		display: block;
+		text-decoration: none;
+		width: 52px;
+		height: 52px;
+		&.whatsapp {
+			background: url(../img/watsup.png) center top no-repeat;
+		}
+		&.viber {
+			background: url(../img/viber.png) center top no-repeat;
+		}
+		&.facebook {
+			background: url(../img/facebook.png) center top no-repeat;
+		}
+		&.vk {
+			background: url(../img/vk.png) center top no-repeat;
+		}
+	}
+}
