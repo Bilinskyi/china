@@ -1,13 +1,21 @@
 .footer {
-	padding: 50px 0 75px;
+	padding: 56px 0 70px;
 	background-color: #38393a;
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.contacts {
+		padding-top: 15px;
+	}
 	.top-line {
-		align-items: stretch;
+		align-items: flex-start;
+		padding-top: 0;
 	}
 }
 
 .main-contacts {
-
+padding-top: 15px;
 	&__txt {
 
 	}
@@ -22,7 +30,7 @@ font-size: 18px;
 	&__btm {
 		text-decoration: none;
 		display: inline-block;
-		margin-top: 10px;
+		margin-top: 7px;
 		padding-left: 32px;
 		position: relative;
 color: #ffffff;
@@ -47,7 +55,7 @@ font-size: 18px;
 
 .social {
 	padding-left: 32px;
-	padding-top: 10px;
+	padding-top: 12px;
 	li {
 		display: inline-block;
 		&:not(:last-child) {

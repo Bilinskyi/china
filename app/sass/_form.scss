@@ -22,7 +22,7 @@ textarea {
 	height: 95px;
 	resize: none;
 	padding: 12px 10px 8px 20px;
-	margin-bottom: 12px;
+	margin-bottom: 14px;
 }
 
 .form {
@@ -145,7 +145,7 @@ button:disabled {
 .skew-form-bg {
 	position: relative;
 	background-color: #e0c557;
-	padding: 30px 39px 0px 36px;
+	padding: 29px 39px 0px 33px;
 	&>* {
 		position: relative;
 		z-index: 2;
@@ -159,11 +159,11 @@ button:disabled {
 		font-family: $font; font-weight: 700;
 		font-size: 28px;
 		line-height: 26px;
-		margin-bottom: 20px;
+		margin-bottom: 21px;
 	}
 
 	&__note {
-		margin-top: 15px;
+		margin-top: 18px;
 		text-align: center;
 		color: rgba(#292828, .84);
 		// font-family: Acrom;
@@ -178,7 +178,7 @@ button:disabled {
 .file2 {
 	display: inline-block;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	i, span {
 		display: inline-block;
 		vertical-align: middle;

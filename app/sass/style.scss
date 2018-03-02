@@ -43,7 +43,7 @@ img {
 	text-decoration: none;
 	font-family: $font; font-weight: 700;
 	font-size: 17px;
-	padding: 10px 23px 8px;
+	padding: 12px 24px 6px;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -74,7 +74,14 @@ img {
 	padding-bottom: 108px;
 	min-height: 569px;
 	.main-title {
-		margin-top: 100px;
+		margin-top: 102px;
+		margin-bottom: 13px;
+	}
+	.transl {
+		margin-bottom: 46px;
+	}
+	.subtitle {
+		margin-bottom: 4px;
 	}
 	.form-wrap-triangle {
 		position: relative;
@@ -110,7 +117,7 @@ img {
 			width: 5px;
 			height: 85px;
 			background-color: #dbb931;
-			left: -20px;
+			left: -18px;
 			top: 5px;
 		}
 		&:after {
@@ -119,13 +126,13 @@ img {
 			position: absolute;
 			width: 0;
 			height: 0;
-			top: 40px;
+			top: 38px;
 			border: 10px solid transparent;
 			border-right: 7px solid #dbb931;
 			border-top-width: 9px;
 			border-bottom-width: 9px;
 			border-left-width: 0;
-			left: -27px;
+			left: -25px;
 
 		}
 	}
@@ -212,11 +219,11 @@ img {
 
 	.bg-pattern {
 		overflow: visible;
-		padding-bottom: 100px;
+		padding-bottom: 109px;
 	}
 	.title {
-		margin-top: 70px;
-		margin-bottom: 10px;
+		margin-top: 67px;
+		margin-bottom: 0px;
 	}
 }
 .flex-adv {
@@ -234,7 +241,7 @@ img {
 
 .box-color {
 	text-align: center;
-	padding: 19px 10px 20px;
+	padding: 19px 10px 22px;
 	&_1 {
 		background-color: #31addb;
 	}
@@ -248,7 +255,7 @@ img {
 	&__icon-wrap {
 		height: 65px;
 		position: relative;
-		margin-bottom: 25px;
+		margin-bottom: 27px;
 	}
 
 	&__i {
@@ -326,6 +333,11 @@ img {
 		&:nth-child(2n+1) {
 			clear: left;
 		}
+		&:nth-child(2n) {
+			@include breakpoint("large") {
+			      padding-left: 61px;
+			}
+		}
 	}
 }
 
@@ -352,9 +364,9 @@ img {
 	background: url(../img/specialists.jpg) center top no-repeat;
 	background-size: cover;
 	text-align: center;
-	padding: 110px 0 105px;
+	padding: 108px 0 107px;
 	.sub {
-		margin: 35px 0 50px;
+		margin: 34px 0 51px;
 	}
 }
 .head1 {
@@ -381,12 +393,17 @@ img {
 	.bg-pattern {
 		overflow: visible;
 	}
+	.container_min {
+		@include breakpoint("large") {
+		      padding-right: 15px;
+		}
+	}
 	.title {
 		margin-top: 80px;
 	}
 	.name {
-		margin-top: 40px;
-		margin-bottom: 12px;
+		margin-top: 49px;
+    margin-bottom: 14px;
 	}
 	.mt-b {
 		position: relative;
@@ -398,7 +415,7 @@ img {
 	.image-user {
 		display: block;
 		position: relative;
-		top: -40px;
+		top: -32px;
 	}
 	.plminl {
 		@include breakpoint("large") {
@@ -423,6 +440,7 @@ img {
 	color: #464545;
 	font-family: $font; font-weight: 900;
 	font-size: 22px;
+	    margin-bottom: 8px;
 }
 
 .text-numb {
@@ -487,17 +505,17 @@ img {
 	background: url(../img/bg-1.jpg) center top no-repeat;
 	background-size: cover;
 	text-align: center;
-	padding: 130px 0 84px;
+	padding: 133px 0 82px;
 	margin-top: -60px;
 	position: relative;
 	.subtitle-sm {
-		margin-top: 30px;
+		margin-top: 32px;
 	}
 	.form-h {
-		margin: 45px 0 0;
+		margin: 47px 0 0;
 	}
 	.center {
-		margin-top: 45px;
+		margin-top: 49px;
 	}
 }
 .title-white {
@@ -553,7 +571,7 @@ img {
 }
 
 .main-slider {
-	margin-top: 75px;
+	margin-top: 69px;
 	margin-bottom: 40px;
 }
 .main-slider-item {
@@ -588,7 +606,7 @@ img {
 		font-family: $font; font-weight: 500;
 		font-size: 21px;
 		line-height: 31px;
-		margin: 8px 0 8px;
+		margin: 8px 0 12px;
 	}
 
 	&__name {

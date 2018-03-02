@@ -3670,7 +3670,7 @@ yx-axis
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 25px 0;
+  padding: 26px 0 25px;
 }
 
 .logo {
@@ -3702,7 +3702,8 @@ yx-axis
 }
 
 .logo__text {
-  padding-left: 25px;
+  padding-left: 28px;
+  padding-top: 9px;
 }
 
 .logo__top {
@@ -3785,15 +3786,29 @@ yx-axis
 }
 
 .footer {
-  padding: 50px 0 75px;
+  padding: 56px 0 70px;
   background-color: #38393a;
 }
 
+.footer .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer .contacts {
+  padding-top: 15px;
+}
+
 .footer .top-line {
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 0;
+}
+
+.main-contacts {
+  padding-top: 15px;
 }
 
 .main-contacts__top {
@@ -3807,7 +3822,7 @@ yx-axis
 .main-contacts__btm {
   text-decoration: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 7px;
   padding-left: 32px;
   position: relative;
   color: #ffffff;
@@ -3836,7 +3851,7 @@ yx-axis
 
 .social {
   padding-left: 32px;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .social li {
@@ -3896,7 +3911,7 @@ textarea {
   height: 95px;
   resize: none;
   padding: 12px 10px 8px 20px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .form input {
@@ -4048,7 +4063,7 @@ button:disabled {
 .skew-form-bg {
   position: relative;
   background-color: #e0c557;
-  padding: 30px 39px 0px 36px;
+  padding: 29px 39px 0px 33px;
 }
 
 .skew-form-bg > * {
@@ -4062,11 +4077,11 @@ button:disabled {
   font-weight: 700;
   font-size: 28px;
   line-height: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .form__note {
-  margin-top: 15px;
+  margin-top: 18px;
   text-align: center;
   color: rgba(41, 40, 40, 0.84);
   font-size: 11px;
@@ -4077,7 +4092,7 @@ button:disabled {
 .file2 {
   display: inline-block;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .file2 i, .file2 span {
@@ -4579,6 +4594,7 @@ button:disabled {
   width: 100%;
   left: 0;
   right: 0;
+  margin-top: 30px;
 }
 
 .slick-dots li {
@@ -5180,7 +5196,7 @@ img {
   font-family: "MuseoCyrillic";
   font-weight: 700;
   font-size: 17px;
-  padding: 10px 23px 8px;
+  padding: 12px 24px 6px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -5212,7 +5228,16 @@ img {
 }
 
 .section-main .main-title {
-  margin-top: 100px;
+  margin-top: 102px;
+  margin-bottom: 13px;
+}
+
+.section-main .transl {
+  margin-bottom: 46px;
+}
+
+.section-main .subtitle {
+  margin-bottom: 4px;
 }
 
 .section-main .form-wrap-triangle {
@@ -5254,7 +5279,7 @@ img {
   width: 5px;
   height: 85px;
   background-color: #dbb931;
-  left: -20px;
+  left: -18px;
   top: 5px;
 }
 
@@ -5264,13 +5289,13 @@ img {
   position: absolute;
   width: 0;
   height: 0;
-  top: 40px;
+  top: 38px;
   border: 10px solid transparent;
   border-right: 7px solid #dbb931;
   border-top-width: 9px;
   border-bottom-width: 9px;
   border-left-width: 0;
-  left: -27px;
+  left: -25px;
 }
 
 .transl {
@@ -5360,12 +5385,12 @@ img {
 
 .section-advantages .bg-pattern {
   overflow: visible;
-  padding-bottom: 100px;
+  padding-bottom: 109px;
 }
 
 .section-advantages .title {
-  margin-top: 70px;
-  margin-bottom: 10px;
+  margin-top: 67px;
+  margin-bottom: 0px;
 }
 
 .flex-adv {
@@ -5393,7 +5418,7 @@ img {
 
 .box-color {
   text-align: center;
-  padding: 19px 10px 20px;
+  padding: 19px 10px 22px;
 }
 
 .box-color_1 {
@@ -5411,7 +5436,7 @@ img {
 .box-color__icon-wrap {
   height: 65px;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
 }
 
 .box-color__i {
@@ -5491,6 +5516,12 @@ img {
   clear: left;
 }
 
+@media (min-width: 1180px) {
+  .adv-wrap > *:nth-child(2n) {
+    padding-left: 61px;
+  }
+}
+
 .adv-item__title {
   color: #3496bb;
   font-family: "MuseoCyrillic";
@@ -5511,11 +5542,11 @@ img {
   background: url(../img/specialists.jpg) center top no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 110px 0 105px;
+  padding: 108px 0 107px;
 }
 
 .section-specialists .sub {
-  margin: 35px 0 50px;
+  margin: 34px 0 51px;
 }
 
 .head1 {
@@ -5544,13 +5575,19 @@ img {
   overflow: visible;
 }
 
+@media (min-width: 1180px) {
+  .section-profile .container_min {
+    padding-right: 15px;
+  }
+}
+
 .section-profile .title {
   margin-top: 80px;
 }
 
 .section-profile .name {
-  margin-top: 40px;
-  margin-bottom: 12px;
+  margin-top: 49px;
+  margin-bottom: 14px;
 }
 
 .section-profile .mt-b {
@@ -5565,7 +5602,7 @@ img {
 .section-profile .image-user {
   display: block;
   position: relative;
-  top: -40px;
+  top: -32px;
 }
 
 @media (min-width: 1180px) {
@@ -5593,6 +5630,7 @@ img {
   font-family: "MuseoCyrillic";
   font-weight: 900;
   font-size: 22px;
+  margin-bottom: 8px;
 }
 
 .text-numb {
@@ -5665,21 +5703,21 @@ img {
   background: url(../img/bg-1.jpg) center top no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 130px 0 84px;
+  padding: 133px 0 82px;
   margin-top: -60px;
   position: relative;
 }
 
 .section-form-1 .subtitle-sm {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .section-form-1 .form-h {
-  margin: 45px 0 0;
+  margin: 47px 0 0;
 }
 
 .section-form-1 .center {
-  margin-top: 45px;
+  margin-top: 49px;
 }
 
 .title-white {
@@ -5751,7 +5789,7 @@ img {
 }
 
 .main-slider {
-  margin-top: 75px;
+  margin-top: 69px;
   margin-bottom: 40px;
 }
 
@@ -5805,7 +5843,7 @@ img {
   font-weight: 500;
   font-size: 21px;
   line-height: 31px;
-  margin: 8px 0 8px;
+  margin: 8px 0 12px;
 }
 
 .slide__name {
