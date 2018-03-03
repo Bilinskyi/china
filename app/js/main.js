@@ -1,84 +1,11 @@
-// window.addEventListener('resize', function() {
-
-// })
-
-// var wow = new WOW(
-// {
-//     boxClass:     'wow',      // animated element css class (default is wow)
-//     animateClass: '', // animation css class (default is animated)
-//     offset:       40,          // distance to the element when triggering the animation (default is 0)
-//     mobile:       true,       // trigger animations on mobile devices (default is true)
-//     live:         true,       // act on asynchronously loaded content (default is true)
-//     callback:     function(box) {
-//      var eff;
-//      var data = box.dataset;
-//      var dDelay = data.delay || 200;
-
-//      switch(box.classList.contains('wow')) {
-//        case box.classList.contains('pulse'):
-//        eff = 'callout.pulse';
-//        break;
-//        case box.classList.contains('slideUpIn'):
-//        eff = 'transition.slideUpIn'; 
-//        break
-//        default: 
-//        eff = 'transition.fadeIn';
-//      }
-
-//      Velocity(box, eff, {duration: 1000, visibility: "visible", delay: dDelay});
-//       // the callback is fired every time an animation is started
-//       // the argument that is passed in is the DOM node being animated
-//     },
-//     scrollContainer: null // optional scroll container selector, otherwise use window
-//   }
-//   );
-// wow.init();
-
-/*   Velocity  */
-	// var el = document.querySelector('.box');
-
-	// var value = {
-	//  opacity: 1,
-	//  translateY: 10
-	// }
-	// var options = {
-	//  duration: 800,
-	//  delay: 100,
-	//  display: 'block'
-	// }
-
-	// Velocity(el, value, options);
-	// Velocity(el, {opacity: 0, translateY: 0}, {duration: 1000});
-	/*   Velocity  */
-
-
-
-	// var buttonsScroll = document.querySelectorAll('a[href*="#"]');
-	// for( var i = 0; i < buttonsScroll.length; i++ ) {
-	//  buttonsScroll[i].addEventListener('click', function(event) {
-	//    event.preventDefault();
-	//    var sectionHash = this.hash.slice(1);
-	//    var target = document.getElementById(sectionHash);
-	//    Velocity(target, 'scroll', {duration: 600});
-	//  });
-	// };
-
-
-	// var btnTop = document.getElementById('top-button');
-	// btnTop.addEventListener('click', function() {
-	//  Velocity(document.body, 'scroll', {duration: 1000, offset: 0, easing: 'ease-in', mobileHA: false})
-	// });
-
-	
-
 
 
 	$(document).ready(function(){
 
 		/* mobile check */
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$('html, body').css('min-width', '1320px').addClass('mobile');
-			$('html').css('width', window.innerWidth + 'px');
+			// $('html, body').css('min-width', '1320px').addClass('mobile');
+			// $('html').css('width', window.innerWidth + 'px');
 		}
 
 
@@ -296,16 +223,16 @@
 
 
 	/*MASK JQUERY*/
-	//  $('input[type=tel]').mask("+7 (999) 999-99-99");
+	 $('input[type=tel]').mask("+7 (999) 999-99-99");
 
 
 	/*HIDE PLACEHOLDER*/
-	// $('input,textarea').focus(function(){
-	//  $(this).data('placeholder',$(this).attr('placeholder'))
-	//  .attr('placeholder','');
-	// }).blur(function(){
-	//  $(this).attr('placeholder',$(this).data('placeholder'));
-	// });
+	$('input,textarea').focus(function(){
+	 $(this).data('placeholder',$(this).attr('placeholder'))
+	 .attr('placeholder','');
+	}).blur(function(){
+	 $(this).attr('placeholder',$(this).data('placeholder'));
+	});
 
 
 	// $('.checked').on('click', function(e) {

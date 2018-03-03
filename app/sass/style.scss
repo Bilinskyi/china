@@ -644,9 +644,9 @@ img {
 		line-height: 24.72px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 17px;
-	      line-height: 22.33px;
-	      br {display: none;}
+		font-size: 17px;
+		line-height: 22.33px;
+		br {display: none;}
 	}
 }
 .sub {
@@ -663,8 +663,8 @@ img {
 		line-height: 23px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 15px;
-	      line-height: 21px;
+		font-size: 15px;
+		line-height: 21px;
 	}
 }
 
@@ -698,7 +698,7 @@ img {
 			margin-top: 64px;
 		}
 		@include breakpoint("mobileonly") {
-		      margin-top: 50px;
+			margin-top: 50px;
 		}
 	}
 	.name {
@@ -761,8 +761,8 @@ img {
 		line-height: 27.68px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 22px;
-	      line-height: 25px;
+		font-size: 22px;
+		line-height: 25px;
 	}
 }
 
@@ -779,8 +779,8 @@ img {
 		line-height: 25.84px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 16px;
-	      line-height: 19px;
+		font-size: 16px;
+		line-height: 19px;
 	}
 }
 
@@ -796,7 +796,7 @@ img {
 		font-size: 19px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 17px;
+		font-size: 17px;
 	}
 }
 
@@ -814,8 +814,8 @@ img {
 		line-height: 25.84px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 16px;
-	      line-height: 19px;
+		font-size: 16px;
+		line-height: 19px;
 	}
 }
 
@@ -834,8 +834,8 @@ img {
 			line-height: 25.84px;
 		}
 		@include breakpoint("mobileonly") {
-		      font-size: 16px;
-		      line-height: 19px;
+			font-size: 16px;
+			line-height: 19px;
 		}
 	}
 }
@@ -856,8 +856,8 @@ img {
 			line-height: 25.84px;
 		}
 		@include breakpoint("mobileonly") {
-		      font-size: 16px;
-		      line-height: 19px;
+			font-size: 16px;
+			line-height: 19px;
 		}
 		&:after {
 			content: '';
@@ -872,8 +872,8 @@ img {
 				top: 4px;
 			}
 			@include breakpoint("maxsmall") {
-			      left: -15px;
-			      top: 3px;
+				left: -15px;
+				top: 3px;
 			}
 		}
 	}
@@ -933,7 +933,7 @@ img {
 		padding: 55px 0;
 	}
 	@include breakpoint("mobileonly") {
-	      padding: 45px 0;
+		padding: 45px 0;
 	}
 	.button {
 		@include breakpoint("maxsmall") {
@@ -978,7 +978,7 @@ img {
 		font-size: 43px;
 	}
 	@include breakpoint("mobileonly") {
-	      font-size: 39px;
+		font-size: 39px;
 	}
 }
 .subtitle-sm {
@@ -1068,7 +1068,7 @@ img {
 		margin-top: 55px;
 	}
 	@include breakpoint("mobileonly") {
-	      margin-top: 30px;
+		margin-top: 30px;
 	}
 }
 .main-slider-item {
@@ -1119,7 +1119,7 @@ img {
 			font-size: 21px;
 		}
 		@include breakpoint("mobileonly") {
-		      font-size: 19px;
+			font-size: 19px;
 		}
 	}
 
@@ -1143,8 +1143,8 @@ img {
 			br {display: none;}
 		}
 		@include breakpoint("mobileonly") {
-		      font-size: 16px;
-line-height: 23.24px;
+			font-size: 16px;
+			line-height: 23.24px;
 		}
 	}
 
@@ -1178,7 +1178,7 @@ line-height: 23.24px;
 		padding: 55px 0;
 	}
 	@include breakpoint("mobileonly") {
-	      padding: 45px 0;
+		padding: 45px 0;
 	}
 	.button {
 		flex-grow: 1;
@@ -1192,7 +1192,7 @@ line-height: 23.24px;
 			font-size: 30px;
 		}
 		@include breakpoint("mobileonly") {
-		      font-size: 27px;
+			font-size: 27px;
 		}
 	}
 	.subtitle-md {
