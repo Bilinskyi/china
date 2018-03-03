@@ -47,6 +47,9 @@ img {
 	cursor: pointer;
 	border: none;
 	outline: none;
+	@include breakpoint("maxlarge") {
+		font-size: 15px;
+	}
 	&_theme_1 {
 		color: #f3f3f3;
 		box-shadow: 0px 2px 0 rgba(22, 102, 132, 0.75);
@@ -76,9 +79,15 @@ img {
 	.main-title {
 		margin-top: 102px;
 		margin-bottom: 13px;
+		@include breakpoint("maxlarge") {
+			margin-top: 120px;
+		}
 	}
 	.transl {
 		margin-bottom: 46px;
+		@include breakpoint("maxlarge") {
+			margin-bottom: 40px;
+		}
 	}
 	.subtitle {
 		margin-bottom: 4px;
@@ -108,6 +117,10 @@ img {
 	font-family: $font; font-weight: 900;
 	font-size: 47px;
 	line-height: 51px;
+	@include breakpoint("maxlarge") {
+		font-size: 43px;
+		line-height: 46.38px;
+	}
 	&_line {
 		position: relative;
 		&:before {
@@ -144,16 +157,25 @@ img {
 	color: #464545;
 	font-size: 48px;
 	font-weight: 300;
+	@include breakpoint("maxlarge") {
+		font-size: 44px;
+	}
 }
 .subtitle {
 	color: #32738b;
 	font-family: $font; font-weight: 700;
 	font-size: 32px;
+	@include breakpoint("maxlarge") {
+		font-size: 29px;
+	}
 }
 .text-sm {
 	color: #373636;
 	font-family: $font; font-weight: 500;
 	font-size: 17px;
+	@include breakpoint("maxlarge") {
+		font-size: 15px;  
+	}
 }
 
 
@@ -216,6 +238,10 @@ img {
 	padding-top: 45px;
 	margin-top: -45px;
 	overflow: hidden;
+	@include breakpoint("maxlarge") {
+		padding-top: 28px;
+	margin-top: -28px;
+	}
 
 	.bg-pattern {
 		overflow: visible;
@@ -224,6 +250,9 @@ img {
 	.title {
 		margin-top: 67px;
 		margin-bottom: 0px;
+		@include breakpoint("maxlarge") {
+			margin-top: 77px;
+		}
 	}
 }
 .flex-adv {
@@ -236,7 +265,9 @@ img {
 	align-items: stretch;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
+	@include breakpoint("maxlarge") {
+		margin-top: -28px;
+	}
 }
 
 .box-color {
@@ -256,6 +287,9 @@ img {
 		height: 65px;
 		position: relative;
 		margin-bottom: 27px;
+		@include breakpoint("maxlarge") {
+			margin-bottom: 14px;
+		}
 	}
 
 	&__i {
@@ -271,6 +305,9 @@ img {
 		color: #ffffff;
 		font-family: $font; font-weight: 900;
 		font-size: 20px;
+		@include breakpoint("maxlarge") {
+			font-size: 17px;
+		}
 	}
 
 	&__p {
@@ -280,6 +317,11 @@ img {
 		line-height: 20px;
 		margin-top: 10px;
 		margin-bottom: 0;
+		@include breakpoint("maxlarge") {
+			font-size: 14px;
+			line-height: 17.1px;
+			margin-top: 8px;
+		}
 	}
 }
 .icon-doc {
@@ -335,7 +377,7 @@ img {
 		}
 		&:nth-child(2n) {
 			@include breakpoint("large") {
-			      padding-left: 61px;
+				padding-left: 61px;
 			}
 		}
 	}
@@ -395,7 +437,7 @@ img {
 	}
 	.container_min {
 		@include breakpoint("large") {
-		      padding-right: 15px;
+			padding-right: 15px;
 		}
 	}
 	.title {
@@ -403,14 +445,20 @@ img {
 	}
 	.name {
 		margin-top: 49px;
-    margin-bottom: 14px;
+		margin-bottom: 14px;
+		@include breakpoint("maxlarge") {
+			margin-top: 20px;
+		}
 	}
 	.mt-b {
 		position: relative;
 		margin-top: -80px;
+		@include breakpoint("maxlarge") {
+			margin-top: -40px;
+		}
 	}
 	.mt-t {
-		padding-top: 5px;
+		padding-top: 15px;
 	}
 	.image-user {
 		display: block;
@@ -440,7 +488,7 @@ img {
 	color: #464545;
 	font-family: $font; font-weight: 900;
 	font-size: 22px;
-	    margin-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .text-numb {
@@ -495,6 +543,9 @@ img {
 	.col-cust {
 		padding-left: 10px;
 		padding-right: 10px;
+		@include breakpoint("maxlarge") {
+			max-width: 287px;
+		}
 	}
 }
 
@@ -557,6 +608,9 @@ img {
 	}
 	&__item {
 		max-width: 220px;
+		@include breakpoint("maxlarge") {
+			max-width: 190px;
+		}
 	}
 }
 
@@ -587,6 +641,9 @@ img {
 		img {
 			max-width: 196px;
 			display: block;
+			@include breakpoint("maxlarge") {
+				max-width: 190px;
+			}
 		}
 	}
 
@@ -599,6 +656,9 @@ img {
 		color: #3496bb;
 		font-family: $font; font-weight: 900;
 		font-size: 28px;
+		@include breakpoint("maxlarge") {
+			font-size: 27px;
+		}
 	}
 
 	&__p {
@@ -607,12 +667,19 @@ img {
 		font-size: 21px;
 		line-height: 31px;
 		margin: 8px 0 12px;
+		@include breakpoint("maxlarge") {
+			font-size: 20px;
+			line-height: 29.88px;
+		}
 	}
 
 	&__name {
 		color: #262626;
 		font-family: $font; font-weight: 700;
 		font-size: 21px;
+		@include breakpoint("maxlarge") {
+			font-size: 20px;
+		}
 	}
 }
 
@@ -634,6 +701,11 @@ img {
 	}
 	.subtitle-md {
 		margin: 20px 0 40px;
+	}
+	.form-h input {
+		@include breakpoint("maxlarge") {
+			max-width: 197px;
+		}
 	}
 }
 
