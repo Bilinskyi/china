@@ -1636,6 +1636,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 479px) {
+  .container {
+    width: 320px;
+  }
+}
+
 .icon-attach {
   background-image: url(../img/sprite.png);
   background-position: -142px -85px;
@@ -3781,6 +3787,12 @@ yx-axis
   }
 }
 
+@media (max-width: 479px) {
+  .top-line {
+    padding-bottom: 10px;
+  }
+}
+
 .logo {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3838,6 +3850,12 @@ yx-axis
 @media (max-width: 767px) {
   .logo__img img {
     width: 76px;
+  }
+}
+
+@media (max-width: 479px) {
+  .logo__img img {
+    width: 70px;
   }
 }
 
@@ -4107,6 +4125,29 @@ yx-axis
   }
 }
 
+@media (max-width: 479px) {
+  .footer .top-line .contacts__phone {
+    font-size: 16px;
+  }
+  .footer .top-line .button {
+    width: 190px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .footer .top-line .main-contacts__top {
+    font-size: 16px;
+  }
+  .footer .top-line .main-contacts__btm {
+    font-size: 16px;
+  }
+  .footer .top-line .logo__top {
+    font-size: 16px;
+  }
+  .footer .top-line .logo__bottom {
+    font-size: 14px;
+  }
+}
+
 .main-contacts {
   padding-top: 15px;
 }
@@ -4216,6 +4257,13 @@ yx-axis
   }
 }
 
+@media (max-width: 479px) {
+  .social a {
+    width: 48px;
+    height: 48px;
+  }
+}
+
 .social a.whatsapp {
   background: url(../img/watsup.png) center top no-repeat;
   background-size: 100% 100%;
@@ -4267,6 +4315,12 @@ input:not([type=submit]) {
   }
 }
 
+@media (max-width: 479px) {
+  input:not([type=submit]) {
+    padding: 7px 10px 3px 20px;
+  }
+}
+
 textarea {
   width: 100%;
   outline: none;
@@ -4293,6 +4347,12 @@ textarea {
 @media (max-width: 991px) {
   textarea {
     height: 68px;
+  }
+}
+
+@media (max-width: 479px) {
+  textarea {
+    height: 65px;
   }
 }
 
@@ -4636,6 +4696,13 @@ button:disabled {
     padding: 10px 20px 0 10px;
     text-align: left;
     font-size: 17px;
+  }
+}
+
+@media (max-width: 479px) {
+  .file {
+    height: 30px;
+    padding-top: 3px;
   }
 }
 
@@ -5811,6 +5878,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .section-main {
+    padding-bottom: 55px;
+  }
+}
+
 .section-main .main-title {
   margin-top: 102px;
   margin-bottom: 13px;
@@ -5905,6 +5978,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .main-title {
+    font-size: 21px;
+    line-height: 22.91px;
+  }
+}
+
 .main-title_line {
   position: relative;
 }
@@ -5923,6 +6003,15 @@ img {
 @media (max-width: 991px) {
   .main-title_line:before {
     height: 58px;
+  }
+}
+
+@media (max-width: 479px) {
+  .main-title_line:before {
+    height: 40px;
+    left: -8px;
+    top: 1px;
+    width: 3px;
   }
 }
 
@@ -5947,6 +6036,16 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .main-title_line:after {
+    left: -11px;
+    top: 15px;
+    border-right: 4px solid #dbb931;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+  }
+}
+
 .transl {
   color: #464545;
   font-size: 48px;
@@ -5968,6 +6067,12 @@ img {
 @media (max-width: 767px) {
   .transl {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 479px) {
+  .transl {
+    font-size: 22px;
   }
 }
 
@@ -5996,6 +6101,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
 .text-sm {
   color: #373636;
   font-family: "MuseoCyrillic";
@@ -6018,6 +6129,12 @@ img {
 @media (max-width: 767px) {
   .text-sm {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 479px) {
+  .text-sm {
+    font-size: 13px;
   }
 }
 
@@ -6099,6 +6216,12 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 479px) {
+  .section-advantages .mbsb {
+    max-width: 254px;
+  }
+}
+
 .section-advantages .bg-pattern {
   overflow: visible;
   padding-bottom: 109px;
@@ -6130,6 +6253,12 @@ img {
 @media (max-width: 767px) {
   .section-advantages .title {
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-advantages .title {
+    margin-top: 30px;
   }
 }
 
@@ -6296,6 +6425,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .title {
+    font-size: 23px;
+    line-height: 26px;
+  }
+}
+
 .title strong {
   display: block;
   font-weight: 900;
@@ -6323,6 +6459,15 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .title_line:before {
+    height: 45px;
+    top: 1px;
+    left: -8px;
+    width: 3px;
+  }
+}
+
 .title_line:after {
   content: '';
   display: block;
@@ -6341,6 +6486,13 @@ img {
 @media (max-width: 991px) {
   .title_line:after {
     top: 23px;
+  }
+}
+
+@media (max-width: 479px) {
+  .title_line:after {
+    top: 16px;
+    left: -13px;
   }
 }
 
@@ -6390,6 +6542,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .adv-item__title {
+    font-size: 21px;
+  }
+}
+
 .adv-item__p {
   color: #262626;
   font-family: "MuseoCyrillic";
@@ -6411,6 +6569,16 @@ img {
     font-size: 18px;
     line-height: 21.12px;
     margin: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .adv-item__p {
+    font-size: 16px;
+    line-height: 19.08px;
+  }
+  .adv-item__p br {
+    display: none;
   }
 }
 
@@ -6474,6 +6642,16 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .head1 {
+    font-size: 17px;
+    line-height: 22.33px;
+  }
+  .head1 br {
+    display: none;
+  }
+}
+
 .sub {
   color: #393838;
   font-family: "MuseoCyrillic";
@@ -6493,6 +6671,13 @@ img {
   .sub {
     font-size: 16px;
     line-height: 23px;
+  }
+}
+
+@media (max-width: 479px) {
+  .sub {
+    font-size: 15px;
+    line-height: 21px;
   }
 }
 
@@ -6532,6 +6717,12 @@ img {
 @media (max-width: 991px) {
   .section-profile .title {
     margin-top: 64px;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-profile .title {
+    margin-top: 50px;
   }
 }
 
@@ -6623,6 +6814,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .name {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
 .pos {
   color: #262626;
   font-family: "MuseoCyrillic";
@@ -6644,6 +6842,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .pos {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
 .head2 {
   color: #464545;
   font-family: "MuseoCyrillic";
@@ -6661,6 +6866,12 @@ img {
 @media (max-width: 767px) {
   .head2 {
     font-size: 19px;
+  }
+}
+
+@media (max-width: 479px) {
+  .head2 {
+    font-size: 17px;
   }
 }
 
@@ -6686,6 +6897,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .text-numb {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
 .list li {
   color: #262626;
   font-family: "MuseoCyrillic";
@@ -6705,6 +6923,13 @@ img {
   .list li {
     font-size: 18px;
     line-height: 25.84px;
+  }
+}
+
+@media (max-width: 479px) {
+  .list li {
+    font-size: 16px;
+    line-height: 19px;
   }
 }
 
@@ -6731,6 +6956,13 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .sqr li {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
 .sqr li:after {
   content: '';
   display: block;
@@ -6745,6 +6977,13 @@ img {
 @media (max-width: 991px) {
   .sqr li:after {
     top: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sqr li:after {
+    left: -15px;
+    top: 3px;
   }
 }
 
@@ -6829,6 +7068,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .section-form-1 {
+    padding: 45px 0;
+  }
+}
+
 @media (max-width: 767px) {
   .section-form-1 .button {
     padding: 10px 15px 8px;
@@ -6895,6 +7140,12 @@ img {
 @media (max-width: 767px) {
   .title-white {
     font-size: 43px;
+  }
+}
+
+@media (max-width: 479px) {
+  .title-white {
+    font-size: 39px;
   }
 }
 
@@ -7031,6 +7282,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .main-slider {
+    margin-top: 30px;
+  }
+}
+
 .slide {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7118,6 +7375,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .slide__title {
+    font-size: 19px;
+  }
+}
+
 .slide__p {
   color: #262626;
   font-family: "MuseoCyrillic";
@@ -7148,6 +7411,13 @@ img {
   }
   .slide__p br {
     display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .slide__p {
+    font-size: 16px;
+    line-height: 23.24px;
   }
 }
 
@@ -7184,6 +7454,12 @@ img {
   }
 }
 
+@media (max-width: 479px) {
+  .section-form-2 {
+    padding: 45px 0;
+  }
+}
+
 .section-form-2 .button {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -7201,6 +7477,12 @@ img {
 @media (max-width: 767px) {
   .section-form-2 .title-white {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-form-2 .title-white {
+    font-size: 27px;
   }
 }
 

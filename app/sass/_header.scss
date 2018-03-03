@@ -26,6 +26,9 @@
 		display: block;
 		text-align: center;
 	}
+	@include breakpoint("mobileonly") {
+		padding-bottom: 10px;
+	}
 }
 .logo {
 	display: flex;
@@ -50,6 +53,9 @@
 			}
 			@include breakpoint("maxsmall") {
 				width: 76px;
+			}
+			@include breakpoint("mobileonly") {
+				width: 70px;
 			}
 		}
 	}

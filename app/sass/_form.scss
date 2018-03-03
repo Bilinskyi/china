@@ -17,6 +17,9 @@ input:not([type=submit]) {
 	@include breakpoint("maxsmall") {
 		padding: 12px 10px 8px 20px;
 	}
+	@include breakpoint("mobileonly") {
+		padding: 7px 10px 3px 20px;
+	}
 }
 
 textarea {
@@ -38,6 +41,9 @@ textarea {
 	}
 	@include breakpoint("maxmedium") {
 		height: 68px;
+	}
+	@include breakpoint("mobileonly") {
+		height: 65px;
 	}
 }
 
@@ -304,6 +310,10 @@ button:disabled {
 	      padding: 10px 20px 0 10px;
 	      text-align: left;
 	      font-size: 17px;
+	}
+	@include breakpoint("mobileonly") {
+	      height: 30px;
+	      padding-top: 3px;
 	}
 	span {
 		margin-left: 7px;
