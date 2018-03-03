@@ -93,3 +93,31 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
+
+.mbsn {
+	@include breakpoint("maxsmall") {
+		display: none;
+	}
+}
+.mbsdib {
+	@include breakpoint("maxsmall") {
+		display: inline-block;
+		text-align: left;
+		float: none;
+		width: auto;
+		max-width: 99%;
+	}
+}
+
+
+.mbsb {
+	display: none;
+	@include breakpoint("maxsmall") {
+		display: block;
+	}
+}
+.container {
+	@include breakpoint("maxsmall") {
+		width: 460px;
+	}
+}

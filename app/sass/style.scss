@@ -54,6 +54,10 @@ img {
 		font-size: 11px;
 		padding: 9px 15px 7px;
 	}
+	@include breakpoint("maxsmall") {
+		padding: 13px 15px 11px;
+		font-size: 14px;
+	}
 	&_theme_1 {
 		color: #f3f3f3;
 		box-shadow: 0px 2px 0 rgba(22, 102, 132, 0.75);
@@ -68,6 +72,9 @@ img {
 		width: 246px;
 		@include breakpoint("maxmedium") {
 			width: 190px;
+		}
+		@include breakpoint("maxsmall") {
+			width: 266px;
 		}
 	}
 }
@@ -86,6 +93,10 @@ img {
 	@include breakpoint("maxmedium") {
 		min-height: initial;
 	}
+	@include breakpoint("maxsmall") {
+		text-align: center;
+		padding-bottom: 75px;
+	}
 	.main-title {
 		margin-top: 102px;
 		margin-bottom: 13px;
@@ -94,6 +105,11 @@ img {
 		}
 		@include breakpoint("maxmedium") {
 			margin-top: 93px;
+		}
+		@include breakpoint("maxsmall") {
+			display: inline-block;
+			text-align: left;
+			margin-top: 50px;
 		}
 	}
 	.transl {
@@ -140,6 +156,10 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 33px;
 		line-height: 36.08px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 23px;
+		line-height: 25.37px;
 	}
 	&_line {
 		position: relative;
@@ -189,6 +209,9 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 34px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 24px;
+	}
 }
 .subtitle {
 	color: #32738b;
@@ -200,6 +223,9 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 23px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 20px;
+	}
 }
 .text-sm {
 	color: #373636;
@@ -210,6 +236,9 @@ img {
 	}
 	@include breakpoint("maxmedium") {
 		font-size: 12px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 15px;
 	}
 }
 
@@ -280,6 +309,11 @@ img {
 	@include breakpoint("maxmedium") {
 		
 	}
+	.mbsb {
+		max-width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	.bg-pattern {
 		overflow: visible;
@@ -296,6 +330,9 @@ img {
 		}
 		@include breakpoint("maxmedium") {
 			margin-top: 62px;
+		}
+		@include breakpoint("maxsmall") {
+		      margin-top: 40px;
 		}
 	}
 }
@@ -315,11 +352,22 @@ img {
 	@include breakpoint("maxmedium") {
 		
 	}
+	@include breakpoint("maxsmall") {
+		margin-top: 40px;
+		display: block;
+	}
 }
 
 .box-color {
 	text-align: center;
 	padding: 19px 10px 22px;
+	@include breakpoint("maxsmall") {
+		max-width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		padding: 15px 10px;
+	}
 	&_1 {
 		background-color: #31addb;
 	}
@@ -361,6 +409,9 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 13px;
 		}
+		@include breakpoint("maxsmall") {
+			font-size: 17px;
+		}
 	}
 
 	&__p {
@@ -379,6 +430,10 @@ img {
 			font-size: 11px;
 			line-height: 13.3px;
 		}
+		@include breakpoint("maxsmall") {
+			font-size: 13px;
+line-height: 16.63px;
+		}
 	}
 }
 .icon-doc {
@@ -394,6 +449,10 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 30px;
 		line-height: 33.45px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 26px;
+		line-height: 28.9px;
 	}
 	strong {
 		display: block;
@@ -443,6 +502,9 @@ img {
 		@include breakpoint("maxmedium") {
 			margin-top: 35px;
 		}
+		@include breakpoint("maxsmall") {
+		      margin-top: 30px;
+		}
 		&:nth-child(2n+1) {
 			clear: left;
 		}
@@ -462,6 +524,10 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 22px;
 		}
+		@include breakpoint("maxsmall") {
+			font-size: 24px;
+			line-height: 27.68px;
+		}
 	}
 
 	&__p {
@@ -473,6 +539,11 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 16px;
 			line-height: 19.45px;
+		}
+		@include breakpoint("maxsmall") {
+			font-size: 18px;
+			line-height: 21.12px;
+			margin: 10px 0 0 0;
 		}
 	}
 }
@@ -488,10 +559,17 @@ img {
 	@include breakpoint("maxmedium") {
 		padding: 80px 0 70px;
 	}
+	@include breakpoint("maxsmall") {
+		padding: 35px 0 50px;
+	}
 	.sub {
 		margin: 34px 0 51px;
 		@include breakpoint("maxmedium") {
 			margin: 25px 0 40px;
+		}
+		@include breakpoint("maxsmall") {
+		      br {display: none;}
+		      margin: 20px 0 30px;
 		}
 	}
 }
@@ -504,6 +582,10 @@ img {
 		font-size: 26px;
 		line-height: 31px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 19px;
+		line-height: 24.72px;
+	}
 }
 .sub {
 	color: #393838;
@@ -513,6 +595,10 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 19px;
 		line-height: 25.66px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 16px;
+		line-height: 23px;
 	}
 }
 
@@ -524,8 +610,15 @@ img {
 	padding-top: 40px;
 	margin-top: -40px;
 	overflow: hidden;
+	@include breakpoint("maxsmall") {
+		padding-top: 0;
+		margin-top: 0;
+	}
 	.bg-pattern {
 		overflow: visible;
+		@include breakpoint("maxsmall") {
+		      padding-bottom: 30px;
+		}
 	}
 	.container_min {
 		@include breakpoint("large") {
@@ -558,17 +651,26 @@ img {
 		@include breakpoint("maxmedium") {
 			margin-top: 0px;
 		}
+		@include breakpoint("maxsmall") {
+			margin-top: 20px;
+		}
 	}
 	.mt-t {
 		padding-top: 15px;
 		@include breakpoint("maxmedium") {
 			padding-top: 20px;
 		}
+		@include breakpoint("maxsmall") {
+			padding-top: 15px;
+		}
 	}
 	.image-user {
 		display: block;
 		position: relative;
 		top: -32px;
+		@include breakpoint("maxsmall") {
+			top: 0;
+		}
 	}
 	.plminl {
 		@include breakpoint("large") {
@@ -584,6 +686,10 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 22px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 24px;
+		line-height: 27.68px;
+	}
 }
 
 .pos {
@@ -594,6 +700,10 @@ img {
 		font-size: 16px;
 		line-height: 19.45px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 18px;
+		line-height: 25.84px;
+	}
 }
 
 .head2 {
@@ -603,6 +713,9 @@ img {
 	margin-bottom: 8px;
 	@include breakpoint("maxmedium") {
 		font-size: 17px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 19px;
 	}
 }
 
@@ -615,6 +728,10 @@ img {
 		font-size: 16px;
 		line-height: 19.45px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 18px;
+		line-height: 25.84px;
+	}
 }
 
 .list {
@@ -626,6 +743,10 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 16px;
 			line-height: 19.45px;
+		}
+		@include breakpoint("maxsmall") {
+			font-size: 18px;
+			line-height: 25.84px;
 		}
 	}
 }
@@ -640,6 +761,10 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 16px;
 			line-height: 19.45px;
+		}
+		@include breakpoint("maxsmall") {
+			font-size: 18px;
+			line-height: 25.84px;
 		}
 		&:after {
 			content: '';
@@ -669,6 +794,11 @@ img {
 	align-items: stretch;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	@include breakpoint("maxsmall") {
+		display: block;
+		text-align: center;
+		padding-top: 30px;
+	}
 
 	.col-cust {
 		padding-left: 10px;
@@ -678,6 +808,12 @@ img {
 		}
 		@include breakpoint("maxmedium") {
 			max-width: 224px;
+		}
+		@include breakpoint("maxsmall") {
+			max-width: 280px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
 		}
 	}
 }
@@ -695,6 +831,16 @@ img {
 	@include breakpoint("maxmedium") {
 		padding: 120px 0 60px;
 	}
+	@include breakpoint("maxsmall") {
+		margin-top: 0;
+		padding: 55px 0;
+	}
+	.button {
+		@include breakpoint("maxsmall") {
+		      padding: 10px 15px 8px;
+		font-size: 19px;
+		}
+	}
 	.subtitle-sm {
 		margin-top: 32px;
 		@include breakpoint("maxmedium") {
@@ -706,11 +852,17 @@ img {
 		@include breakpoint("maxmedium") {
 			margin: 35px 0 0;
 		}
+		@include breakpoint("maxsmall") {
+		      margin: 25px 0 0;
+		}
 	}
 	.center {
 		margin-top: 49px;
 		@include breakpoint("maxmedium") {
 			margin-top: 38px;
+		}
+		@include breakpoint("maxsmall") {
+			margin-top: 9px;
 		}
 	}
 }
@@ -722,6 +874,9 @@ img {
 	@include breakpoint("maxmedium") {
 		font-size: 39px;
 	}
+	@include breakpoint("maxsmall") {
+		font-size: 43px;
+	}
 }
 .subtitle-sm {
 	color: #ffffff;
@@ -729,6 +884,10 @@ img {
 	font-size: 18px;
 	@include breakpoint("maxmedium") {
 		font-size: 14px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 16px;
+		line-height: 23.99px;
 	}
 }
 
@@ -738,6 +897,9 @@ img {
 	font-size: 24px;
 	@include breakpoint("maxmedium") {
 		font-size: 19px;
+	}
+	@include breakpoint("maxsmall") {
+		font-size: 17px;
 	}
 }
 
@@ -751,6 +913,9 @@ img {
 	padding: 80px 0 120px;
 	@include breakpoint("maxmedium") {
 		padding: 60px 0 90px;
+	}
+	@include breakpoint("maxsmall") {
+	      padding: 50px 0 50px;
 	}
 }
 
@@ -782,6 +947,9 @@ img {
 
 .section-comment {
 	padding-bottom: 83px;
+	@include breakpoint("maxsmall") {
+	      padding-bottom: 50px;
+	}
 	.cst {
 		@include breakpoint("large") {
 			padding-left: 55px;
@@ -804,6 +972,9 @@ img {
 	align-items: stretch;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+	@include breakpoint("maxsmall") {
+		display: block;
+	}
 
 	&__img {
 		flex-shrink: 0;
@@ -824,6 +995,10 @@ img {
 		padding-left: 60px;
 		@include breakpoint("maxmedium") {
 			padding-left: 40px;
+		}
+		@include breakpoint("maxsmall") {
+			padding-left: 0;
+			padding-top: 15px;
 		}
 	}
 
@@ -852,6 +1027,11 @@ img {
 		@include breakpoint("maxmedium") {
 			font-size: 15px;
 			line-height: 23.24px;
+		}
+		@include breakpoint("maxsmall") {
+			font-size: 17px;
+			line-height: 25px;	
+			br {display: none;}
 		}
 	}
 
@@ -886,6 +1066,15 @@ img {
 	}
 	.button {
 		flex-grow: 1;
+		@include breakpoint("maxsmall") {
+		      padding: 10px 15px 8px;
+		font-size: 19px;
+		}
+	}
+	.title-white {
+		@include breakpoint("maxsmall") {
+			font-size: 30px;
+		}
 	}
 	.subtitle-md {
 		margin: 20px 0 40px;
@@ -899,6 +1088,9 @@ img {
 		}
 		@include breakpoint("maxmedium") {
 			max-width: 154px;
+		}
+		@include breakpoint("maxsmall") {
+			max-width: 266px;
 		}
 	}
 }
@@ -914,5 +1106,8 @@ img {
 	width: 100%;
 	@include breakpoint("maxmedium") {
 		height: 325px;
+	}
+	@include breakpoint("maxsmall") {
+		height: 260px;
 	}
 }

@@ -21,12 +21,22 @@
 	@include breakpoint("maxmedium") {
 		padding: 26px 0 28px;
 	}
+	@include breakpoint("maxsmall") {
+		padding-bottom: 15px;
+		display: block;
+		text-align: center;
+	}
 }
 .logo {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	@include breakpoint("maxsmall") {
+		display: inline-flex;
+		justify-content: flex-start;
+		text-align: left;
+	}
 
 	&__img {
 		flex-shrink: 0;
@@ -38,12 +48,18 @@
 			@include breakpoint("maxmedium") {
 				width: 69px;
 			}
+			@include breakpoint("maxsmall") {
+				width: 76px;
+			}
 		}
 	}
 
 	&__text {
 		padding-left: 28px;
 		padding-top: 9px;
+		@include breakpoint("maxsmall") {
+			padding-left: 22px;
+		}
 	}
 
 	&__top {
@@ -83,6 +99,9 @@
 }
 .main-nav {
 	padding-bottom: 15px;
+	@include breakpoint("maxsmall") {
+		margin-top: 10px;
+	}
 	&__item {
 		text-decoration: none;
 		display: inline-block;
@@ -94,6 +113,9 @@
 		}
 		@include breakpoint("maxmedium") {
 			font-size: 12px; 
+		}
+		@include breakpoint("maxsmall") {
+			font-size: 15px;
 		}
 		&:not(:last-child) {
 			margin-right: 33px;
@@ -112,6 +134,9 @@
 .contacts {
 	padding-bottom: 10px;
 	text-align: right;
+	@include breakpoint("maxsmall") {
+		display: none;
+	}
 	.button {
 		margin-top: 8px;
 		@include breakpoint("maxlarge") {
