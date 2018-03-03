@@ -237,25 +237,7 @@
 	   nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"></button>',
 	   centerPadding: '30px',
 	   touchMove: false,
-	   draggable: false,
-	   responsive: [
-	   {
-	     breakpoint: 992,
-	     settings: {
-	       dots: false,
-	       slidesToShow: 2,
-	       slidesToScroll: 1
-	     }
-	   },
-	   {
-	     breakpoint: 668,
-	     settings: {
-	       dots: false,
-	       slidesToShow: 1,
-	       slidesToScroll: 1
-	     }
-	   }
-	   ]
+	   draggable: false
 	 });
 	};
 

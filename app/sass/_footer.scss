@@ -4,6 +4,9 @@
 	@include breakpoint("maxlarge") {
 		padding: 48px 0 60px;
 	}
+	@include breakpoint("maxmedium") {
+		padding: 35px 0 40px;
+	}
 	.container {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -31,6 +34,10 @@
 		@include breakpoint("maxlarge") {
 			font-size: 16px;
 		}
+		@include breakpoint("maxmedium") {
+			font-size: 12px;
+			padding-left: 20px;
+		}
 	}
 
 	&__btm {
@@ -44,6 +51,10 @@
 		font-size: 18px;
 		@include breakpoint("maxlarge") {
 			font-size: 16px;
+		}
+		@include breakpoint("maxmedium") {
+			font-size: 12px;
+			padding-left: 20px;
 		}
 		.icon-email {
 			position: absolute;
@@ -65,6 +76,10 @@
 .social {
 	padding-left: 32px;
 	padding-top: 12px;
+	@include breakpoint("maxmedium") {
+	      padding-top: 5px;
+	      padding-left: 20px;
+	}
 	li {
 		display: inline-block;
 		&:not(:last-child) {
@@ -79,6 +94,10 @@
 		@include breakpoint("maxlarge") {
 			width: 46px;
 			height: 46px;
+		}
+		@include breakpoint("maxmedium") {
+			width: 36px;
+			height: 36px;
 		}
 		&.whatsapp {
 			background: url(../img/watsup.png) center top no-repeat;

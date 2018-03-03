@@ -18,6 +18,9 @@
 	@include breakpoint("maxlarge") {
 		padding: 26px 0 35px;
 	}
+	@include breakpoint("maxmedium") {
+		padding: 26px 0 28px;
+	}
 }
 .logo {
 	display: flex;
@@ -31,6 +34,9 @@
 			display: block;
 			@include breakpoint("maxlarge") {
 				width: 88px;
+			}
+			@include breakpoint("maxmedium") {
+				width: 69px;
 			}
 		}
 	}
@@ -50,6 +56,10 @@
 			font-size: 20px;
 			line-height: 22.91px;
 		}
+		@include breakpoint("maxmedium") {
+			font-size: 16px;
+			line-height: 17.82px;
+		}
 	}
 
 	&__bottom {
@@ -61,6 +71,10 @@
 		@include breakpoint("maxlarge") {
 			font-size: 17px;
 			line-height: 24.67px;
+		}
+		@include breakpoint("maxmedium") {
+			font-size: 13px;
+			line-height: 19.19px;
 		}
 		&_color_1 {
 			color: #fff;
@@ -78,10 +92,16 @@
 		@include breakpoint("maxlarge") {
 			font-size: 16px;  
 		}
+		@include breakpoint("maxmedium") {
+			font-size: 12px; 
+		}
 		&:not(:last-child) {
 			margin-right: 33px;
 			@include breakpoint("maxlarge") {
 				margin-right: 23px;
+			}
+			@include breakpoint("maxmedium") {
+				
 			}
 		}
 		&:hover {
@@ -97,6 +117,9 @@
 		@include breakpoint("maxlarge") {
 			margin-top: 6px;
 		}
+		@include breakpoint("maxmedium") {
+			margin-top: 3px;
+		}
 	}
 
 	&__phone {
@@ -110,6 +133,9 @@
 		position: relative;
 		@include breakpoint("maxlarge") {
 			font-size: 17px;    
+		}
+		@include breakpoint("maxmedium") {
+			font-size: 13px;
 		}
 		&_color_1 {
 			color: #fff;
