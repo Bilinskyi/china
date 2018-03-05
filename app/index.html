@@ -26,9 +26,9 @@
               </div>
             </div>
           </div>
-          <nav class="main-nav"><a class="main-nav__item" href="#">о переводчике</a><a class="main-nav__item" href="#">отзывы</a><a class="main-nav__item" href="#">контакты</a>
+          <nav class="main-nav"><a class="main-nav__item" href="#ch1">о переводчике</a><a class="main-nav__item" href="#ch2">отзывы</a><a class="main-nav__item" href="#ch3">контакты</a>
           </nav>
-          <div class="contacts"><a class="contacts__phone" href="tel:"><i class="icon-phone"></i>8 (4912) <span>512-585</span></a><br><a class="button button_theme_1" href="#call">Заказать звонок</a>
+          <div class="contacts"><a class="contacts__phone" href="tel:"><i class="icon-phone"></i>8 (4912) <span>512-585</span></a><br><a class="button button_theme_1 fancybox-modal" href="#call">Заказать звонок</a>
           </div>
         </div>
       </div>
@@ -177,12 +177,12 @@
     <section class="section-specialists">
       <div class="container">
         <div class="head1">Ваши специалисты будут общаться <br>с китайскими партнёрами на одном языке!</div>
-        <div class="sub">Правильный перевод поможет обойти многие <br>«подводные камни» во время пусконаладочных работ и <br>позволит новому оборудованию приносить вам пользу. </div><a class="button button_width button_theme_1" href="#call">Заказать перевод</a>
+        <div class="sub">Правильный перевод поможет обойти многие <br>«подводные камни» во время пусконаладочных работ и <br>позволит новому оборудованию приносить вам пользу. </div><a class="button button_width button_theme_1 fancybox-modal" href="#price-mod">Заказать перевод</a>
       </div>
     </section>
     <!-- end section-specialists-->
     <!-- begin section-profile-->
-    <section class="section-profile">
+    <section class="section-profile" id="ch1">
       <div class="bg-pattern bg-pattern_bl">
         <div class="container container_min">
           <div class="row">
@@ -241,9 +241,9 @@
             </div>
           </div>
           <div class="sert-wrap">
-            <div class="col-cust"><a class="fancybox" href="img/s1.jpg"><img src="img/s1.jpg" alt="" width="317" height="228"></a></div>
-            <div class="col-cust"><a class="fancybox" href="img/s2.jpg"><img src="img/s2.jpg" alt="" width="317" height="228"></a></div>
-            <div class="col-cust"><a class="fancybox" href="img/s3.jpg"><img src="img/s3.jpg" alt="" width="317" height="228"></a></div>
+            <div class="col-cust"><a class="fancybox" href="img/sert1.jpg"><img src="img/sert1.jpg" alt="" width="238" height="314"></a></div>
+            <div class="col-cust"><a class="fancybox" href="img/sert2.jpg"><img src="img/sert2.jpg" alt="" width="239" height="317"></a></div>
+            <div class="col-cust"><a class="fancybox" href="img/sert3.jpg"><img src="img/sert3.jpg" alt="" width="248" height="333"></a></div>
           </div>
         </div>
       </div>
@@ -257,7 +257,7 @@
         <form class="form-h" action="sendmail.php" method="post">
           <input type="text" placeholder="Ваше имя" name="name">
           <input type="email" placeholder="Ваш e-mail" name="email">
-          <input type="tel" placeholder="Комментарии" name="comment">
+          <input type="text" placeholder="Комментарии" name="comment">
           <label class="file" for="file1"><i class="icon-attach"></i><span>Файл</span></label>
           <input type="file" id="file1" name="file">
           <div class="center">
@@ -301,7 +301,7 @@
         </div>
       </div>
       <!-- begin section-comment-->
-      <div class="section-comment">
+      <div class="section-comment" id="ch2">
         <div class="container container_min">
           <div class="title title_line">Отзывы <strong>клиентов</strong></div>
         </div>
@@ -351,14 +351,14 @@
         <form class="form-h" action="sendmail.php" method="post">
           <input type="text" placeholder="Ваше имя" name="name">
           <input type="email" placeholder="Ваш e-mail" name="email">
-          <input type="tel" placeholder="Комментарии" name="comment">
+          <input type="text" placeholder="Комментарии" name="comment">
           <button class="button button_width button_theme_2 send" type="submit">Заказать перевод</button>
         </form>
       </div>
     </section>
     <!-- end section-form-2-->
     <!-- begin section-map-->
-    <section class="section-map">
+    <section class="section-map" id="ch3">
       <div id="map-canvas"></div>
     </section>
     <!-- end section-map-->
@@ -380,18 +380,56 @@
               </div><a class="main-contacts__btm" href="mailto:noterekhov@mail.ru"><i class="icon-email"></i>noterekhov@mail.ru</a><br><a class="main-contacts__btm" href="tel:+79307832585"><i class="icon-mobile"></i>+7 (930) 783-25-85</a>
             </div>
             <ul class="social">
-              <li><a class="whatsapp" href="#"></a></li>
-              <li><a class="viber" href="#"></a></li>
-              <li><a class="facebook" href="#"></a></li>
-              <li><a class="vk" href="#"></a></li>
+              <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=79307832585"></a></li>
+              <li><a class="viber" href="viber://add?number=79307832585"></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/" target="_blank"></a></li>
+              <li><a class="vk" href="https://vk.com/" target="_blank"></a></li>
             </ul>
           </div>
-          <div class="contacts"><a class="contacts__phone contacts__phone_color_1" href="tel:"><i class="icon-phone"></i>8 (4912) <span>512-585</span></a><br><a class="button button_theme_1" href="#call">Заказать звонок</a>
+          <div class="contacts"><a class="contacts__phone contacts__phone_color_1" href="tel:"><i class="icon-phone"></i>8 (4912) <span>512-585</span></a><br><a class="button button_theme_1 fancybox-modal" href="#call">Заказать звонок</a>
           </div>
         </div>
       </div>
     </footer>
     <!-- end footer-->
+    <div class="popup modal" id="price-mod">
+      <div class="popup__title"><span>Заявка на расчет стоимости</span>
+        <div class="popup__close"></div>
+      </div>
+      <div class="popup__subtitle">Заполните форму обратной связи или прикрепите документ для перевода.</div>
+      <div class="form">
+        <form action="sendmail.php" method="post">
+          <input type="text" placeholder="Ваше имя" name="name">
+          <input type="email" placeholder="Ваш e-mail" name="email">
+          <div class="center">
+            <label class="file2" for="file4"><i class="icon-att"></i><span>Прикрепить файл</span></label>
+          </div>
+          <input type="file" id="file4" name="file">
+          <button class="button button_theme_1 send" type="submit">Рассчитать стоимость</button>
+        </form>
+        <div class="form__note">Нажимая на кнопку, вы принимаете <br>Положение и Согласие на обработку <br>персональных данных.</div>
+      </div>
+    </div>
+    <div class="popup modal" id="call">
+      <div class="popup__title"><span>Заявка на обратный звонок</span>
+        <div class="popup__close"></div>
+      </div>
+      <div class="popup__subtitle">Оставьте свои контактные данные и я свяжусь с Вами в ближайшее время.</div>
+      <div class="form">
+        <form action="sendmail.php" method="post">
+          <input type="text" placeholder="Ваше имя" name="name">
+          <input type="tel" placeholder="Ваш телефон" name="phone" data-req="1">
+          <button class="button button_theme_1 send" type="submit">Заказать звонок</button>
+        </form>
+        <div class="form__note">Нажимая на кнопку, вы принимаете <br>Положение и Согласие на обработку <br>персональных данных.</div>
+      </div>
+    </div>
+    <div class="popup modal" id="thx">
+      <div class="popup__title"><span>Ваша заявка принята</span>
+        <div class="popup__close"></div>
+      </div>
+      <div class="popup__subtitle">В ближайшее время я свяжусь с Вами <br>для обсуждения деталей. Спасибо!</div>
+    </div>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>

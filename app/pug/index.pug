@@ -99,10 +99,10 @@ block main
 		.container
 			.head1 Ваши специалисты будут общаться <br>с китайскими партнёрами на одном языке!
 			.sub Правильный перевод поможет обойти многие <br>«подводные камни» во время пусконаладочных работ и <br>позволит новому оборудованию приносить вам пользу. 
-			a.button.button_width.button_theme_1(href="#call") Заказать перевод
+			a.button.button_width.button_theme_1.fancybox-modal(href="#price-mod") Заказать перевод
 	// end section-specialists
 	// begin section-profile
-	section.section-profile
+	section.section-profile#ch1
 		.bg-pattern.bg-pattern_bl
 			.container.container_min
 				.row
@@ -149,14 +149,14 @@ block main
 							li Курсы повышения <br>квалификации при Институте Конфуция <br>Рязанского государственного <br>университета им. С.А. Есенина.
 				.sert-wrap
 					.col-cust
-						a.fancybox(href="../img/s1.jpg")
-							img(src="../img/s1.jpg", alt="")
+						a.fancybox(href="../img/sert1.jpg")
+							img(src="../img/sert1.jpg", alt="")
 					.col-cust
-						a.fancybox(href="../img/s2.jpg")
-							img(src="../img/s2.jpg", alt="")
+						a.fancybox(href="../img/sert2.jpg")
+							img(src="../img/sert2.jpg", alt="")
 					.col-cust
-						a.fancybox(href="../img/s3.jpg")
-							img(src="../img/s3.jpg", alt="")
+						a.fancybox(href="../img/sert3.jpg")
+							img(src="../img/sert3.jpg", alt="")
 	// end section-profile
 	// begin section-form-1
 	section.section-form-1
@@ -166,7 +166,7 @@ block main
 			form.form-h(action="sendmail.php" method="post")
 				input(type="text" placeholder="Ваше имя" name="name")
 				input(type="email" placeholder="Ваш e-mail" name="email")
-				input(type="tel" placeholder="Комментарии" name="comment")
+				input(type="text" placeholder="Комментарии" name="comment")
 				label.file(for="file1")
 					i.icon-attach
 					span Файл
@@ -204,7 +204,7 @@ block main
 					+e.item
 						img(src="../img/p11.png", alt="")
 		// begin section-comment
-		div.section-comment
+		div.section-comment#ch2
 			.container.container_min
 				.title.title_line Отзывы <strong>клиентов</strong>
 			.container.cst
@@ -238,16 +238,16 @@ block main
 			form.form-h(action="sendmail.php" method="post")
 				input(type="text" placeholder="Ваше имя" name="name")
 				input(type="email" placeholder="Ваш e-mail" name="email")
-				input(type="tel" placeholder="Комментарии" name="comment")
+				input(type="text" placeholder="Комментарии" name="comment")
 				button.button.button_width.button_theme_2(type="submit" class="send") Заказать перевод
 	// end section-form-2
 	// begin section-map
-	section.section-map
+	section.section-map#ch3
 		#map-canvas
 	// end section-map
 	include includes/footer.pug
+	include includes/modals.pug
 	//- include includes/form.pug
-	//- include includes/modals.pug
 	//- include includes/button-menu.pug
 
 	

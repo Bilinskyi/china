@@ -53,7 +53,7 @@
 			}
 		}
 		@include breakpoint("mobileonly") {
-				.contacts__phone {
+			.contacts__phone {
 				font-size: 16px;
 			}
 			.button {
@@ -124,6 +124,15 @@
 			left: 5px;
 			top: 50%;
 			transform: translate(0, -50%);
+			@include breakpoint("maxlarge") {
+				left: 4px;
+			}
+			@include breakpoint("maxsmall") {
+				left: 3px;
+			}
+			@include breakpoint("mobileonly") {
+				left: 2px;
+			}
 		}
 	}
 }

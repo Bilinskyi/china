@@ -164,9 +164,11 @@
 		position: relative;
 		@include breakpoint("maxlarge") {
 			font-size: 17px;    
+			padding-left: 24px;
 		}
 		@include breakpoint("maxmedium") {
 			font-size: 13px;
+			padding-left: 18px;
 		}
 		&_color_1 {
 			color: #fff;
